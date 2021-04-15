@@ -14,21 +14,9 @@ app.use(cors())
 
 
 // Import Routes
-const postRoute = require('./routes/posts');
-//const { remove } = require('./models/Post');
-app.use('/posts', postRoute); 
-
-
 const gameRoute = require ('./routes/games');
 const {remove} = require('./models/GameModel')
 app.use('/games', gameRoute); 
-
-
-// Routes will be created
-app.get('/', (req, res) => {
-    res.send('We are on home');
-});
-
 
 // Connecting to MongoDB
 mongoose.connect(
@@ -36,7 +24,6 @@ mongoose.connect(
     { useNewUrlParser: true , useUnifiedTopology: true }, 
     () => console.log('Connected to MongoDB')
 );
-
 
 // listening the server
 app.listen(3000);
