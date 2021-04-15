@@ -12,10 +12,16 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(cors())
 
+
 // Import Routes
 const postRoute = require('./routes/posts');
-const { remove } = require('./models/Post');
+//const { remove } = require('./models/Post');
 app.use('/posts', postRoute); 
+
+
+const gameRoute = require ('./routes/games');
+const {remove} = require('./models/GameModel')
+app.use('/games', gameRoute); 
 
 
 // Routes will be created
