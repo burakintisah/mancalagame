@@ -1,5 +1,7 @@
 # mancalagame
 
+# [How to play mancala] (https://www.youtube.com/watch?v=OX7rj93m6o8) 
+
 ## Explore Rest APIs  
   
 The app defines following APIs.  
