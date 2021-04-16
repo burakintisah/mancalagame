@@ -1,6 +1,9 @@
 # mancalagame
 
-[How to play mancala] (https://www.youtube.com/watch?v=OX7rj93m6o8) 
+## [How to play mancala](https://www.youtube.com/watch?v=OX7rj93m6o8) 
+
+## Tech Stack
+NodeJS, Express, MongoDB
 
 ## Explore Rest APIs  
   
