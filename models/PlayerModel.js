@@ -7,7 +7,7 @@ const PlayerSchema = mongoose.Schema({
     }, 
 });
 
-//TODO: number of wins etc can be added
 
+//TODO: number of wins etc can be added
 module.exports.PlayerSchema = PlayerSchema;
 module.exports.PlayerModel = mongoose.model('Players', PlayerSchema);

@@ -46,45 +46,4 @@ const GamesSchema = mongoose.Schema({
     }
 });
 
-/*
-const GamesSchema = mongoose.Schema({
-    playerOne: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'playerModel',
-        required: true
-    },
-    playerTwo: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'playerModel',
-        required: true
-    },
-    playerTurn: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'playerModel',
-        required: true,
-    },
-    gameStatus: {
-        type: String,
-        enum: ['CREATED', 'STARTED', 'FINISHED'],
-        default: 'CREATED'
-    },
-    winnerPlayer: {
-        type: mongoose.Schema.ObjectId,
-        ref: 'playerModel',
-    },
-    pits: {
-        firstPlayerSide: {
-            type: [Number],
-            required: true
-        },
-        secondPlayerSide: {
-            type: [Number],
-            required: true
-        }
-
-    },
-
-});
-*/
-
 module.exports = mongoose.model('Games', GamesSchema);
