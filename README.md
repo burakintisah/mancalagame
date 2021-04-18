@@ -30,5 +30,5 @@ The app defines following APIs.
 - Go into project folder
 - Run `npm i`
 - Create `.env` file.
-- Add `DB_CONNECTION=` and paste connection string taken from the mongodb website into file.
+- Add `DB_CONNECTION=` and paste connection string taken from the mongodb website.
 - Run `npm start`
