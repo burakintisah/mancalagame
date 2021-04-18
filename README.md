@@ -15,6 +15,16 @@ The app defines following APIs.
  - **`PUT`** localhost:3000/games/:gameID/:playerID/:pitNo (make move by game id, player id and pit id) 
  - **`DELETE`** localhost:3000/games/:gameID (Delete game) 
 
+## Example API calls and bodys
+**`POST`** localhost:3000/games
+```json
+{
+    "playerOne": { "name": "player1"},
+    "playerTwo": { "name": "player2"},
+    "playerTurn": "player1"
+}
+```
+
 ## Note
 - Clone this repository
 - Go into project folder
